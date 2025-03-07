@@ -32,18 +32,23 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 ## Project Structure
 ```
 📂 pomodoro-timer
+│── 📁 dist           # Compiled output files
+│   ├── 📄 index.html  # Bundled HTML file
+│   ├── 📄 bundle.js   # Compiled JavaScript
+│── 📁 node_modules    # Dependencies
+│── 📁 sounds         # Sound files
 │── 📁 src
-│   ├── 📄 index.js  # Main entry file
-│   ├── 📄 timer.js  # Timer logic
-│   ├── 📄 sound.js  # Sound management
-│   ├── 📄 dom.js    # DOM elements
-│   ├── 📄 utils.js  # Utility functions
-│── 📁 sounds        # Sound files
-│── 📁 styles        # CSS files
-│── 📄 index.html    # Main HTML file
-│── 📄 README.md     # Documentation
-│── 📄 package.json  # Project dependencies
+│   ├── 📁 js
+│   │   ├── 📄 index.js  # Main entry file
+│   │   ├── 📄 timer.js  # Timer logic
+│   │   ├── 📄 sound.js  # Sound management
+│   │   ├── 📄 dom.js    # DOM elements
+│   │   ├── 📄 utils.js  # Utility functions
+│   ├── 📄 style.css    # Stylesheet
+│── 📄 index.html       # Main HTML file
+│── 📄 package.json     # Project dependencies
 │── 📄 webpack.config.js  # Webpack configuration
+│── 📄 README.md        # Documentation
 ```
 
 ## Usage👩‍💻
