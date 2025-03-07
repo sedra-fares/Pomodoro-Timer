@@ -1,9 +1,9 @@
-# Pomodoro Timer
+# Pomodoro Timer⏲️
 
 ## Description
 This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps users stay productive using the Pomodoro Technique, which consists of focus sessions followed by short and long breaks. The timer includes sound options and plays a notification sound before time runs out.
 
-## Features
+## Features🌟
 - **Focus, Short Break, and Long Break Modes**
 - **Start, Stop, and Reset Timer**
 - **Customizable Background Sounds**
@@ -11,7 +11,7 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 - **Responsive Design**
 - **Built with ES Modules & Webpack**
 
-## Installation
+## Installation📥
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/pomodoro-timer.git
@@ -46,13 +46,13 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 │── 📄 webpack.config.js  # Webpack configuration
 ```
 
-## Usage
+## Usage👩‍💻
 1. **Select a Timer Mode:** Click "Focus", "Short Break", or "Long Break".
 2. **Choose a Background Sound:** Click on a sound option to set it.
 3. **Start the Timer:** Click the "Start" button to begin.
 4. **Stop or Reset:** Use the "Stop" button to pause, and "Reset" to reset the timer.
 
-## Technologies Used
+## Technologies Used⚙️
 - **HTML, CSS, JavaScript (ES6)**
 - **ES Modules**
 - **Webpack**
