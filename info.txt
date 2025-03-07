@@ -1,0 +1,7 @@
+github repo:
+https://github.com/sedra-fares/Pomodoro-Timer
+
+Demo:
+https://www.loom.com/share/41277d11616e4cc5bd4e27d35dc09a70?sid=4ad8ce94-d2b7-4656-9ff3-5b6d6fca4294
+
+اخر اشي حولت الدقاقئق ل 0 عشان يمشي الوقت بسسرعة ونشوف كيف لما يخلص الوقت قي صوت جديد بنسمع

@@ -82,7 +82,7 @@ resetBtn.addEventListener("click", resetTimer);
 shortBreakButton.addEventListener("click", () => {
   pauseTimer();
   active = "short";
-  minCount = 4;
+  minCount = 0;
   count = 59;
   timerDisplay.textContent = `${appendZero(minCount + 1)}:00`;
 });
