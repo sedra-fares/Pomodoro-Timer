@@ -118,7 +118,7 @@ shortBreakButton.addEventListener("click", () => {
   shortBreakButton.classList.add("btn-focus");
   pauseTimer();
   active = "short";
-  minCount = 0;
+  minCount = 4;
   count = 59;
   timerDisplay.textContent = `${appendZero(minCount + 1)}:00`;
 });

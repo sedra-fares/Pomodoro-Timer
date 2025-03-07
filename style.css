@@ -1,60 +1,141 @@
-body{
+
+
+
+/* General Reset for Consistent Design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
     min-height: 100vh;
     background-color: #F1F0E9;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-.container{
+
+/* Container Styling */
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     background-color: #B5828C;
     color: aliceblue;
     border-radius: 2em;
     padding: 4em 3em;
-    width: 40%;
+    width: 40%; /* Keep width 40% on large screens */
+    transition: all 0.3s ease-in-out;
 }
-hr{
+
+/* Header (Timer Title) Styling */
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Horizontal Rule Styling */
+hr {
     width: 100%;
     background-color: rgba(240, 248, 255, 0.551);
     height: 3px;
     border-radius: 1em;
     border: none;
 }
-.timer{
+
+/* Timer Display Styling */
+.timer {
     font-size: 6em;
     font-weight: 700;
 }
-button{
+
+/* Button Styling */
+button {
     font-size: 1em;
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 0.5em 1.5em;
+    padding: 0.7em 2em;
     border-radius: 0.5em;
     border: none;
     color: aliceblue;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
+    width: 100%; /* Make buttons full-width by default */
+    max-width: 250px; /* Max width for larger screens */
+    text-align: center;
 }
-button:hover{
-    transform: translateY(-5px);
 
+/* Button Hover Effects */
+button:hover {
+    transform: translateY(-5px);
 }
-#start{
-    background-color:#A5B68D;
+
+/* Button Specific Colors */
+#start {
+    background-color: #A5B68D;
 }
-#stop{
-    background-color:#761f1f;
+#stop {
+    background-color: #761f1f;
 }
-#reset{
-    background-color:#ADB2D4;
+#reset {
+    background-color: #ADB2D4;
 }
-.btn{
+
+/* .btn Class for Styling Grouped Buttons */
+.btn, .sound-btn {
     background-color: #a0747d;
+    width: auto; /* Adjust width based on content */
+    padding: 0.5em 1.5em;
 }
-.sound-btn{
-    background-color: #a0747d;
+
+/* Sound Buttons Styling */
+.sound-btn {
+    background-color: #A0747D;
+    padding: 0.6em 1.4em;
+}
+.button-wrapper{
+display: flex;
+gap: 10px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 3em 2em;
+        width: 90%;
+    }
+
+    .timer {
+        font-size: 5em;
+    }
+
+    button {
+        padding: 0.6em 1.5em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 2em 1.5em;
+    }
+
+    .timer {
+        font-size: 4em;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 0.5em 1.2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
 }
