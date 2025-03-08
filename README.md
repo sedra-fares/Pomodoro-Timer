@@ -11,6 +11,11 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 - **Responsive Design**
 - **Built with ES Modules & Webpack**
 
+## Demo🎥
+  ```sh
+   https://www.loom.com/share/41277d11616e4cc5bd4e27d35dc09a70?sid=4ad8ce94-d2b7-4656-9ff3-5b6d6fca4294
+  ```
+
 ## Installation📥
 1. Clone this repository:
    ```sh
