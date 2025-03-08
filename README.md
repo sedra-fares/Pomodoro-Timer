@@ -13,7 +13,7 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 
 ## Demo🎥
   ```sh
-   https://www.loom.com/share/41277d11616e4cc5bd4e27d35dc09a70?sid=4ad8ce94-d2b7-4656-9ff3-5b6d6fca4294
+https://www.loom.com/share/8eeeca4a1c0744f885d03d5a6a607f4a?sid=bf431a27-59fd-4af0-9f40-7ea160b126ad
   ```
 
 ## Installation📥
