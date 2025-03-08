@@ -14,7 +14,7 @@ This is a **Pomodoro Timer** built with **JavaScript, HTML, and CSS**. It helps 
 ## Installation📥
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/pomodoro-timer.git](https://github.com/sedra-fares/Pomodoro-Timer.git)
+   git clone https://github.com/sedra-fares/Pomodoro-Timer.git
    ```
 2. Navigate into the project folder:
    ```sh
